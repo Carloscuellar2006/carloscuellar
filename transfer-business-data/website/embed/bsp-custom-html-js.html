@@ -1,0 +1,459 @@
+<!-- ============================================================
+  Big Spring Pressure Washing — Custom HTML / JS block for the HOME page.
+  Paste this entire block into ONE "Custom HTML" element on your page.
+  Pair it with bsp-custom-css.css pasted into your builder's Custom CSS field.
+  Footer links point to /privacypolicy and /termsofservice.
+============================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Archivo:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+
+<!-- Intro bsp-loader -->
+<div class="bsp-loader" id="bsp-loader">
+  <p>Big Spring Pressure Washing</p>
+</div>
+
+<!-- Nav -->
+<header class="bsp-nav" id="nav">
+  <a href="#top" class="bsp-nav-logo">Big Spring Pressure Washing</a>
+  <nav class="bsp-nav-links">
+    <a href="#bsp-services">Services</a>
+    <a href="#bsp-gallery">Before &amp; After</a>
+    <a href="#bsp-process">Process</a>
+    <a href="#bsp-reviews">Reviews</a>
+  </nav>
+  <a href="#bsp-booking" class="bsp-nav-cta">Book Now</a>
+  <button class="bsp-nav-burger" id="navBurger" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="bsp-mobile-menu" id="mobileMenu">
+  <a href="#bsp-services">Services</a>
+  <a href="#bsp-gallery">Before &amp; After</a>
+  <a href="#bsp-process">Process</a>
+  <a href="#bsp-reviews">Reviews</a>
+  <a href="#bsp-booking" class="bsp-mobile-cta">Book Now</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="bsp-hero bsp-page-transition">
+    <div class="bsp-hero-media">
+      <img src="images/hero/hero.jpg" alt="" id="heroImg" onerror="this.parentElement.classList.add('bsp-media-missing')" />
+      <div class="bsp-media-missing-label">Drop a wide action photo here:<br><code>images/hero/hero.jpg</code></div>
+    </div>
+    <div class="bsp-hero-overlay"></div>
+    <div class="bsp-hero-content bsp-container">
+      <p class="bsp-eyebrow bsp-reveal">Serving Huntsville, AL &amp; Surrounding Areas</p>
+      <h1 class="bsp-reveal">Restore the Curb Appeal of Your Property</h1>
+      <p class="bsp-hero-sub bsp-reveal">Residential &amp; commercial pressure washing and exterior cleaning &mdash; done right the first time.</p>
+      <div class="bsp-hero-actions bsp-reveal">
+        <a href="#bsp-booking" class="bsp-btn bsp-btn-primary">Book a Free Estimate</a>
+        <a href="#bsp-gallery" class="bsp-btn bsp-btn-ghost">See the Results</a>
+      </div>
+    </div>
+    <div class="bsp-trust-strip">
+      <span>Licensed &amp; Insured</span>
+      <span class="bsp-dot">&middot;</span>
+      <span>Google Guaranteed</span>
+      <span class="bsp-dot">&middot;</span>
+      <span>5-Star Rated</span>
+      <span class="bsp-dot">&middot;</span>
+      <span>Locally Owned</span>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="bsp-intro bsp-container">
+    <p class="bsp-section-index">01 &mdash; Who We Are</p>
+    <h2>We treat every driveway, deck, and storefront like it's the one out front of our own house.</h2>
+    <p class="bsp-intro-body">
+      Big Spring Pressure Washing is a locally owned pressure washing and exterior cleaning company serving homeowners
+      and businesses throughout Huntsville, AL and the surrounding area. We show up on time, communicate clearly, and leave every
+      surface looking new &mdash; no shortcuts, no upsells, no surprises on the invoice.
+    </p>
+    <ul class="bsp-check-row">
+      <li>Licensed and Insured</li>
+      <li>Background Checked Crews</li>
+      <li>Satisfaction Guaranteed</li>
+    </ul>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="bsp-services" class="bsp-services">
+    <div class="bsp-container bsp-section-head">
+      <p class="bsp-section-index">02 &mdash; Services</p>
+      <h2>What We Clean</h2>
+    </div>
+    <div class="bsp-services-grid">
+      <a class="bsp-service-tile" href="#bsp-booking" style="background-image:url('images/services/house-washing.jpg')">
+        <svg class="bsp-service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v9a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1v-9"/></svg>
+        <span class="bsp-service-name">House Washing</span>
+      </a>
+      <a class="bsp-service-tile" href="#bsp-booking" style="background-image:url('images/services/driveways.jpg')">
+        <svg class="bsp-service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20L9 4h6l5 16"/><path d="M12 4v16" stroke-dasharray="2.2 3"/></svg>
+        <span class="bsp-service-name">Driveways &amp; Walkways</span>
+      </a>
+      <a class="bsp-service-tile" href="#bsp-booking" style="background-image:url('images/services/decks-fences.jpg')">
+        <svg class="bsp-service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4v16M10 4v16M15 4v16M20 4v16"/><path d="M3 9h18M3 15h18"/></svg>
+        <span class="bsp-service-name">Decks &amp; Fences</span>
+      </a>
+      <a class="bsp-service-tile" href="#bsp-booking" style="background-image:url('images/services/roof-gutter.jpg')">
+        <svg class="bsp-service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12L12 4l9 8"/><path d="M5 12v2a1 1 0 001 1h12a1 1 0 001-1v-2"/></svg>
+        <span class="bsp-service-name">Roof &amp; Gutter Cleaning</span>
+      </a>
+      <a class="bsp-service-tile" href="#bsp-booking" style="background-image:url('images/services/commercial.jpg')">
+        <svg class="bsp-service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M4 10h16M10 10v10"/></svg>
+        <span class="bsp-service-name">Commercial Storefronts</span>
+      </a>
+      <a class="bsp-service-tile" href="#bsp-booking" style="background-image:url('images/services/patios-pool.jpg')">
+        <svg class="bsp-service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/><path d="M3 15c1.5-1.5 3-1.5 4.5 0s3 1.5 4.5 0 3-1.5 4.5 0 3 1.5 4.5 0"/></svg>
+        <span class="bsp-service-name">Patios &amp; Pool Decking</span>
+      </a>
+    </div>
+    <p class="bsp-services-note bsp-container">Also servicing: fencing &middot; garage floors &middot; sidewalks &middot; solar panels &middot; awnings &middot; dumpster pads &middot; parking lots &middot; graffiti &amp; paint removal</p>
+  </section>
+
+  <!-- BEFORE / AFTER GALLERY -->
+  <section id="bsp-gallery" class="bsp-gallery">
+    <div class="bsp-container bsp-section-head">
+      <p class="bsp-section-index">03 &mdash; The Proof</p>
+      <h2>Before &amp; After</h2>
+      <p class="bsp-section-sub">Drag the slider on select photos to see the difference.</p>
+    </div>
+    <div class="bsp-gallery-grid" id="galleryGrid">
+      <!-- populated by js/main.js from js/gallery-data.js -->
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="bsp-process" class="bsp-process">
+    <div class="bsp-container bsp-section-head bsp-light">
+      <p class="bsp-section-index">04 &mdash; How It Works</p>
+      <h2>The Process Is Easy</h2>
+    </div>
+    <div class="bsp-process-grid bsp-container">
+      <div class="bsp-process-step">
+        <span class="bsp-process-num">01</span>
+        <h3>Get an Instant Quote</h3>
+        <p>Tell us what you need cleaned. We'll give you straightforward, upfront pricing &mdash; no in-person estimate required.</p>
+      </div>
+      <div class="bsp-process-step">
+        <span class="bsp-process-num">02</span>
+        <h3>Book Your Appointment</h3>
+        <p>Pick a day and time that works for you directly on our calendar. We'll confirm and send reminders.</p>
+      </div>
+      <div class="bsp-process-step">
+        <span class="bsp-process-num">03</span>
+        <h3>Enjoy the Results</h3>
+        <p>Our crew shows up on time, gets to work, and leaves your property looking brand new.</p>
+      </div>
+    </div>
+    <a href="#bsp-booking" class="bsp-btn bsp-btn-primary bsp-process-cta">Book a Free Estimate</a>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="bsp-reviews" class="bsp-reviews">
+    <div class="bsp-container bsp-section-head">
+      <p class="bsp-section-index">05 &mdash; Reviews</p>
+      <h2>What Customers Say</h2>
+    </div>
+    <div class="bsp-reviews-grid bsp-container">
+      <blockquote class="bsp-review">
+        <p>&ldquo;Great job! The driveway and sidewalk look amazing. Everything looks close to brand new. Highly recommend.&rdquo;</p>
+        <cite>&mdash; Sarah Mitchell, Google</cite>
+      </blockquote>
+      <blockquote class="bsp-review">
+        <p>&ldquo;Professional, punctual, and the results speak for themselves. Our house exterior hasn't looked this good in years.&rdquo;</p>
+        <cite>&mdash; James Turner, Google</cite>
+      </blockquote>
+      <blockquote class="bsp-review">
+        <p>&ldquo;Fair pricing and fantastic communication from start to finish. Will absolutely have them back.&rdquo;</p>
+        <cite>&mdash; Amanda Reyes, Google</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS -->
+  <section class="bsp-areas bsp-container">
+    <p class="bsp-section-index">06 &mdash; Where We Work</p>
+    <h2>Service Areas</h2>
+    <ul class="bsp-areas-list">
+      <li>Huntsville</li>
+      <li>Madison</li>
+      <li>Athens</li>
+      <li>Decatur</li>
+      <li>Owens Cross Roads</li>
+      <li>Hazel Green</li>
+      <li>Meridianville</li>
+      <li>New Market</li>
+    </ul>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="bsp-booking" class="bsp-booking">
+    <div class="bsp-container bsp-section-head bsp-light">
+      <p class="bsp-section-index">07 &mdash; Book Now</p>
+      <h2>Get Your Free Estimate</h2>
+      <p class="bsp-section-sub">Pick a time below &mdash; it takes less than a minute.</p>
+    </div>
+    <div class="bsp-booking-embed bsp-container">
+      <iframe src="https://api.leadconnectorhq.com/widget/booking/M2aeU9YQQI3wKj3J9ruI" allow="payment" style="width: 100%; min-height: 780px; border:none; overflow: hidden;" scrolling="no" id="M2aeU9YQQI3wKj3J9ruI_1786156382503"></iframe>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bsp-footer">
+  <div class="bsp-container bsp-footer-grid">
+    <div>
+      <p class="bsp-footer-logo">Big Spring Pressure Washing</p>
+      <p class="bsp-gray">Pressure Washing &amp; Exterior Cleaning</p>
+    </div>
+    <div>
+      <p class="bsp-footer-heading">Contact</p>
+      <p><a href="tel:+12566775992">(256) 677-5992</a></p>
+      <p><a href="mailto:info@bigspringpressurewashing.com">info@bigspringpressurewashing.com</a></p>
+      <p>Huntsville, AL</p>
+    </div>
+    <div>
+      <p class="bsp-footer-heading">Hours</p>
+      <p>Monday &ndash; Saturday</p>
+      <p>8:00 AM &ndash; 6:00 PM</p>
+    </div>
+    <div>
+      <p class="bsp-footer-heading">Follow</p>
+      <p><a href="#" target="_blank" rel="noopener">Instagram</a></p>
+      <p><a href="#" target="_blank" rel="noopener">Facebook</a></p>
+      <p><a href="#" target="_blank" rel="noopener">Google Reviews</a></p>
+    </div>
+  </div>
+  <div class="bsp-container bsp-footer-bottom">
+    <p class="bsp-gray">&copy; 2026 Big Spring Pressure Washing All rights reserved. &nbsp;&middot;&nbsp; <a href="/privacypolicy">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="/termsofservice">Terms of Service</a></p>
+    <a href="#bsp-booking" class="bsp-btn bsp-btn-ghost bsp-btn-small">Book Now</a>
+  </div>
+</footer>
+
+<script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
+<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a7e923cb7fff8e52934c74d" data-source="WEB_USER"></script>
+
+<script>
+/*
+  Before & After gallery data.
+
+  type: "slider"  -> interactive drag-to-reveal comparison
+  type: "static"  -> plain side-by-side before/after, no drag
+
+  Images are hosted on GHL's media library (uploaded via Media Storage).
+*/
+const CDN = "https://assets.cdn.filesafe.space/v8QzAzr7K3RAa3YQ2t0A/media/";
+
+const galleryData = [
+  {
+    id: "slider-1",
+    type: "slider",
+    label: "Patio Cleaning — Huntsville, AL",
+    before: CDN + "6a76d72b8880872019852616.jpg",
+    after: CDN + "6a76d72b9a9c7792eaa9c964.jpg"
+  },
+  {
+    id: "slider-2",
+    type: "slider",
+    label: "Concrete Alcove Cleaning — Huntsville, AL",
+    before: CDN + "6a76d72403343f290fd37bc4.jpg",
+    after: CDN + "6a76d7248880872019850576.jpg"
+  },
+  {
+    id: "slider-3",
+    type: "slider",
+    label: "Paver Patio & Fire Pit Cleaning — Huntsville, AL",
+    before: CDN + "6a76d72a9994d35aa025f59c.jpg",
+    after: CDN + "6a76d7275a64f2b5677ba82f.jpg"
+  },
+  {
+    id: "static-1",
+    type: "static",
+    label: "Brick Wall Cleaning — Huntsville, AL",
+    before: CDN + "6a76d7285a64f2b5677ba839.jpg",
+    after: CDN + "6a76d7275a64f2b5677ba825.jpg"
+  },
+  {
+    id: "static-2",
+    type: "static",
+    label: "Paver Patio Cleaning — Huntsville, AL",
+    before: CDN + "6a76d7279a9c7792eaa9c934.jpg",
+    after: CDN + "6a76d7285a64f2b5677ba83e.jpg"
+  },
+  {
+    id: "static-3",
+    type: "static",
+    label: "Landscape Bed Cleanup — Huntsville, AL",
+    before: CDN + "6a76d72a8880872019851fa7.jpg",
+    after: CDN + "6a76d72b9a9c7792eaa9c95e.jpg"
+  },
+  {
+    id: "static-4",
+    type: "static",
+    label: "Retaining Wall Cleaning — Huntsville, AL",
+    before: CDN + "6a76d7299a9c7792eaa9c94c.jpg",
+    after: CDN + "6a76d7289a9c7792eaa9c93e.jpg"
+  },
+  {
+    id: "static-5",
+    type: "static",
+    label: "Driveway Cleaning — Huntsville, AL",
+    before: CDN + "6a76d7249994d35aa025e3d2.jpg",
+    after: CDN + "6a76d72b5a64f2b5677ba873.jpg"
+  },
+  {
+    id: "static-6",
+    type: "static",
+    label: "Sidewalk Cleaning — Huntsville, AL",
+    before: CDN + "6a76d72c03343f290fd38fdd.jpg",
+    after: CDN + "6a76d72403343f290fd37bbf.jpg"
+  },
+  {
+    id: "static-7",
+    type: "static",
+    label: "Sidewalk Cleaning — Huntsville, AL",
+    before: CDN + "6a76d7245a64f2b5677ba80f.jpg",
+    after: CDN + "6a76d7248880872019850555.jpg"
+  }
+];
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  /* ---------- Loader ---------- */
+  setTimeout(function () {
+    var bspLoader = document.getElementById('bsp-loader');
+    if (bspLoader) bspLoader.remove();
+    document.querySelectorAll('.bsp-hero .bsp-reveal').forEach(function (el, i) {
+      setTimeout(function () { el.classList.add('bsp-is-visible'); }, i * 90);
+    });
+  }, 1300);
+
+  /* ---------- Nav scroll state ---------- */
+  var nav = document.getElementById('nav');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 40) nav.classList.add('bsp-scrolled');
+    else nav.classList.remove('bsp-scrolled');
+  });
+
+  /* ---------- Mobile menu ---------- */
+  var burger = document.getElementById('navBurger');
+  var mobileMenu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', function () {
+    mobileMenu.classList.toggle('bsp-open');
+  });
+  mobileMenu.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () { mobileMenu.classList.remove('bsp-open'); });
+  });
+
+  /* ---------- Scroll bsp-reveal for section headers ---------- */
+  var revealTargets = document.querySelectorAll('.bsp-section-head, .bsp-intro h2, .bsp-intro-body, .bsp-check-row');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('bsp-reveal', 'bsp-is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  revealTargets.forEach(function (el) {
+    el.classList.add('bsp-reveal');
+    io.observe(el);
+  });
+
+  /* ---------- Before / After gallery ---------- */
+  var grid = document.getElementById('galleryGrid');
+  if (grid && typeof galleryData !== 'undefined') {
+    galleryData.forEach(function (job) {
+      var card = document.createElement('div');
+      if (job.type === 'static') {
+        card.className = 'bsp-ba-card bsp-ba-static';
+        card.innerHTML =
+          '<span class="bsp-ba-label">' + job.label + '</span>' +
+          '<div class="bsp-ba-static-pair">' +
+          '  <div class="bsp-ba-static-img"><img src="' + job.before + '" alt="' + job.label + ' before"><span class="bsp-ba-before-tag">Before</span></div>' +
+          '  <div class="bsp-ba-static-img"><img src="' + job.after + '" alt="' + job.label + ' after"><span class="bsp-ba-after-tag">After</span></div>' +
+          '</div>';
+        grid.appendChild(card);
+      } else {
+        card.className = 'bsp-ba-card';
+        card.innerHTML =
+          '<span class="bsp-ba-label">' + job.label + '</span>' +
+          '<div class="bsp-ba-slider" data-job="' + job.id + '">' +
+          '  <img class="bsp-ba-img-before" src="' + job.before + '" alt="' + job.label + ' before">' +
+          '  <div class="bsp-ba-after-wrap"><img class="bsp-ba-img-after" src="' + job.after + '" alt="' + job.label + ' after"></div>' +
+          '  <div class="bsp-ba-divider"></div>' +
+          '  <div class="bsp-ba-handle"><svg viewBox="0 0 24 24" fill="none" stroke="#0c0d0f" stroke-width="2"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></div>' +
+          '  <span class="bsp-ba-before-tag">Before</span>' +
+          '  <span class="bsp-ba-after-tag">After</span>' +
+          '</div>';
+        grid.appendChild(card);
+        initSlider(card.querySelector('.bsp-ba-slider'));
+      }
+    });
+  }
+
+  function initSlider(slider) {
+    var afterWrap = slider.querySelector('.bsp-ba-after-wrap');
+    var afterImg = slider.querySelector('.bsp-ba-img-after');
+    var divider = slider.querySelector('.bsp-ba-divider');
+    var beforeImg = slider.querySelector('.bsp-ba-img-before');
+
+    beforeImg.addEventListener('error', showMissing);
+    afterImg.addEventListener('error', showMissing);
+
+    function showMissing() {
+      if (slider.querySelector('.bsp-ba-missing')) return;
+      beforeImg.style.display = 'none';
+      afterWrap.style.display = 'none';
+      divider.style.display = 'none';
+      slider.querySelector('.bsp-ba-handle').style.display = 'none';
+      var note = document.createElement('div');
+      note.className = 'bsp-ba-missing';
+      slider.appendChild(note);
+    }
+
+    function setPosition(percent) {
+      percent = Math.max(0, Math.min(100, percent));
+      var width = slider.getBoundingClientRect().width;
+      afterWrap.style.width = percent + '%';
+      afterImg.style.width = width + 'px';
+      divider.style.left = percent + '%';
+    }
+
+    function resize() {
+      var current = parseFloat(afterWrap.style.width) || 50;
+      var width = slider.getBoundingClientRect().width;
+      afterImg.style.width = width + 'px';
+    }
+    window.addEventListener('resize', resize);
+
+    setPosition(50);
+
+    var dragging = false;
+
+    function pointerX(e) {
+      var rect = slider.getBoundingClientRect();
+      var clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      return ((clientX - rect.left) / rect.width) * 100;
+    }
+
+    slider.addEventListener('mousedown', function (e) { dragging = true; setPosition(pointerX(e)); });
+    slider.addEventListener('touchstart', function (e) { dragging = true; setPosition(pointerX(e)); }, { passive: true });
+    window.addEventListener('mousemove', function (e) { if (dragging) setPosition(pointerX(e)); });
+    window.addEventListener('touchmove', function (e) { if (dragging) setPosition(pointerX(e)); }, { passive: true });
+    window.addEventListener('mouseup', function () { dragging = false; });
+    window.addEventListener('touchend', function () { dragging = false; });
+  }
+
+});
+</script>
