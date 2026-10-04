@@ -1,0 +1,7 @@
+- [Decide, don't survey](decide-dont-survey.md) — Carlos wants the recommendation acted on, not a menu.
+- [No agents for web work](no-agents-for-web-work.md) — never use workflows/subagents for site design, copy or code. Build it directly.
+- [Doors app](doors-app.md) — five-area life dashboard in doors/, unrelated to the scraper around it.
+- [Marketing claim constraints](marketing-claim-constraints.md) — what Big Spring may claim: not insured, no borrowed trademarks, which prices/guarantees are real vs placeholder.
+- [Big Spring CTA sequence](big-spring-cta-sequence.md) — form first, then the text, then the photo. Never the other way round.
+- [Big Spring target customer](big-spring-target-customer.md) — affluent Huntsville engineers who fear damage, not price. Insurance is the blocker.
+- [Door-knock planner](door-knock-planner.md) — knock whole streets in majority-$500k areas; what OSM and Redfin can and can't give.
